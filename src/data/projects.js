@@ -1,0 +1,135 @@
+export const projects = [
+  {
+    id: 1,
+    title: "Multi-Agent Misinformation Detection",
+    category: "AI / Multi-Agent Systems",
+    status: "In Progress",
+    description:
+      "An explainable fact-verification prototype for social media posts using multiple LLM agents in LangGraph.",
+    technologies: [
+      "Python",
+      "LangGraph",
+      "LLMs",
+      "NLP",
+      "Fact Verification",
+      "Multi-Agent Systems",
+    ],
+    highlights: [
+      "Designed a multi-agent workflow with stance-based debaters, an advisor, and a verifier.",
+      "Aggregated retrieved evidence and debate history into a final credibility decision.",
+      "Focused on explainability and misinformation detection in social media contexts.",
+    ],
+    github: "https://github.com/cindypham04/Misinformation-Multi-Agent-Detection",
+  },
+  {
+    id: 2,
+    title: "Text-to-Image Generative AI + Robustness Evaluation",
+    category: "Generative AI / Trustworthy AI",
+    status: "Completed",
+    description:
+      "A PyTorch-based text-to-image generative AI project with a robustness evaluation framework for prompt rewordings and logical rearrangements.",
+    technologies: [
+      "Python",
+      "PyTorch",
+      "MS COCO",
+      "CLIPScore",
+      "VQA",
+      "Computer Vision",
+      "NLP",
+    ],
+    highlights: [
+      "Built and trained a generative AI model using image-caption data.",
+      "Evaluated whether generated images preserved user intent under meaning-preserving prompt changes.",
+      "Used CLIPScore and VQA to identify recurring visual reasoning gaps.",
+    ],
+    github: null,
+  },
+  {
+    id: 3,
+    title: "Reinforcement Learning for Robotic In-Hand Object Manipulation",
+    category: "Reinforcement Learning / Robotics",
+    status: "Completed",
+    description:
+      "A reinforcement learning project that trains a simulated robotic hand to rotate an object while maintaining a stable grasp using MuJoCo.",
+    technologies: [
+      "Python",
+      "MuJoCo",
+      "Reinforcement Learning",
+      "Simulation",
+      "Robotics",
+    ],
+    highlights: [
+      "Designed the environment, reward logic, and learning strategy.",
+      "Evaluated performance across thousands of training episodes.",
+      "Focused on improving control, stability, and efficiency.",
+    ],
+    github: null,
+  },
+  {
+    id: 4,
+    title: "NLP Learner Modeling Research",
+    category: "NLP / AI Research",
+    status: "Research",
+    description:
+      "Applied NLP research focused on second-language learner modeling, CEFR validity, and linguistic feature analysis using learner writing corpora.",
+    technologies: [
+      "Python",
+      "spaCy",
+      "NLP",
+      "Pandas",
+      "Linguistic Feature Extraction",
+      "Corpus Analysis",
+    ],
+    highlights: [
+      "Built reproducible NLP pipelines to process and analyze learner essays.",
+      "Extracted syntactic and morphological features with spaCy.",
+      "Developed research plans using ICNALE, EFCAMDAT, and interpretable linguistic feature sets.",
+    ],
+    github: null,
+  },
+  {
+    id: 5,
+    title: "Genetic Algorithms for Boolean SAT",
+    category: "Evolutionary Algorithms / Research",
+    status: "Completed",
+    description:
+      "Research work exploring genetic algorithms and evolution-inspired metaheuristics for solving Boolean SAT instances.",
+    technologies: [
+      "Python",
+      "NumPy",
+      "SciPy",
+      "Linux CLI",
+      "SLURM",
+      "Git",
+      "HPC",
+    ],
+    highlights: [
+      "Conducted Python-based experiments using genetic algorithms for Boolean SAT.",
+      "Managed large-scale experiment runs on a computing cluster using SLURM.",
+      "Evaluated performance under different algorithmic parameter settings.",
+    ],
+    github: null,
+  },
+  {
+    id: 6,
+    title: "Book Recommender App",
+    category: "Full-Stack Development",
+    status: "In Progress",
+    description:
+      "A full-stack reading tracker and recommendation app designed to help users organize books by reading status, ratings, and preferences.",
+    technologies: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+    ],
+    highlights: [
+      "Built as a long-term portfolio project to demonstrate full-stack software engineering.",
+      "Designed around reading status, ratings, and book organization.",
+      "Planned future integration with book APIs and recommendation logic.",
+    ],
+    github: null,
+  },
+];
