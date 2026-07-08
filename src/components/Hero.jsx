@@ -82,7 +82,7 @@ function Hero() {
             </h1>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-10 max-w-xl">
-              Recent Computer Science Master's graduate with experience building
+              Recent Computer Science Master's graduate from USF with experience building
               multi-agent LLM workflows, generative AI systems, NLP pipelines,
               and model evaluation tools.
             </p>
@@ -96,7 +96,7 @@ function Hero() {
                 <FiArrowRight className="w-4 h-4" />
               </a>
               <a
-                href="/resume.pdf"
+                href="/Jooyoung_C_Gonzalez_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 h-10 px-6 rounded-md text-sm font-medium border border-border bg-background text-foreground hover:bg-muted transition-colors"

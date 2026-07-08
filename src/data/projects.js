@@ -1,37 +1,37 @@
 export const projects = [
   {
     id: 'multi-agent',
-    title: 'Multi-Agent Misinformation Detection',
-    summary: 'Explainable fact-verification via LLM debate',
+    title: 'Multi-Agent Social Media Claim Verification',
+    summary: 'LangGraph-based fact-verification with pro/con debate agents',
     description:
-      'Multiple LLM agents retrieve evidence from diverse sources, debate claim credibility, and contribute weighted votes to a final verifier. Each decision includes a structured natural-language explanation tracing which agents agreed and why.',
+      'Designed and implemented the core LangGraph architecture for a two-person AI verification prototype that evaluates pasted social-media claims using pro/con debate agents, retrieved web evidence, an advisor, and a final verifier. Built the parent orchestration graph, debate agents, shared state, routing logic, and user interface. Integrated Qwen 7B with Tavily web-search evidence to generate supported, refuted, or insufficient-evidence verdicts with written rationales.',
     image:
       'https://images.unsplash.com/photo-1545987796-200677ee1011?w=800&h=450&fit=crop&auto=format',
-    tags: ['Python', 'LangGraph', 'LLM Agents', 'Retrieval', 'NLP', 'Explainable AI'],
+    tags: ['LangGraph', 'Python', 'Qwen 7B', 'Tavily', 'LLM Agents'],
     links: [
       { label: 'GitHub', href: 'https://github.com/cindypham04/Misinformation-Multi-Agent-Detection' },
     ],
   },
   {
     id: 'text-to-image',
-    title: 'Text-to-Image Generation & Robustness Evaluation',
-    summary: 'DCGAN generation with semantic robustness testing',
+    title: 'Text-to-Image Generative AI + Robustness Evaluation',
+    summary: 'DCGAN generation and Stable Diffusion consistency testing',
     description:
-      'Built a DCGAN-based text-to-image model, then designed an evaluation framework measuring whether generated outputs remain semantically consistent when input prompts are reworded, reordered, or logically rearranged. Metrics include CLIPScore and VQA consistency.',
+      'Contributed architecture research and experimental planning for a three-person project that built a text-conditioned DCGAN in PyTorch using MS COCO captions, GloVe embeddings, and 64x64 image generation. Designed and implemented a robustness benchmark for Stable Diffusion models using 100 logically equivalent prompt pairs across negation, word order, composition, attributes, and spatial relations, evaluated with CLIP-based alignment and BLIP VQA. Identified recurring failures in negation, multi-object composition, and spatial reasoning.',
     image:
       'https://images.unsplash.com/photo-1567359781514-3b964e2b04d6?w=800&h=450&fit=crop&auto=format',
-    tags: ['Python', 'PyTorch', 'DCGAN', 'CLIPScore', 'VQA', 'Computer Vision', 'NLP'],
+    tags: ['PyTorch', 'DCGAN', 'Stable Diffusion', 'CLIP', 'BLIP VQA'],
     links: [],
   },
   {
     id: 'reddit-dissent',
-    title: 'Dissent in Reddit Threads',
-    summary: 'NLP study of disagreement in social conversations',
+    title: 'Dissent in Reddit Discussions',
+    summary: 'RoBERTa stance classification at scale',
     description:
-      'Applied social media mining and NLP to model how disagreement emerges in Reddit conversations. Analyzed linguistic markers, reply-chain structure, and thread topology to characterize the dynamics of online dissent across communities with different norms.',
+      'Proposed the core project direction and conducted background research for a team study examining how dissent relates to engagement and conversational uptake across Reddit communities. Developed a RoBERTa-based stance-classification pipeline using DEBAGREEMENT parent–reply pairs, achieving 0.678 weighted F1 on agreement, neutral, and disagreement labels. Built and debugged a scalable preprocessing and batch-inference pipeline for 2.43 million comment–reply pairs across 35,569 threads.',
     image:
       'https://images.unsplash.com/photo-1451226428352-cf66bf8a0317?w=800&h=450&fit=crop&auto=format',
-    tags: ['Python', 'NLP', 'Social Media Mining', 'Data Analysis', 'Reddit', 'Visualization'],
+    tags: ['Python', 'PyTorch', 'Hugging Face Transformers', 'RoBERTa', 'NLP'],
     links: [],
   },
 ];

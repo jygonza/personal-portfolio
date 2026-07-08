@@ -31,7 +31,7 @@ function Navbar({ isDark, onToggleDark }) {
           href="#"
           className="text-[15px] font-semibold tracking-tight text-foreground hover:text-primary transition-colors"
         >
-          Joo-Young Gonzalez
+          Joo-Young Catherine Gonzalez
         </a>
 
         {/* Desktop */}
@@ -46,7 +46,7 @@ function Navbar({ isDark, onToggleDark }) {
             </a>
           ))}
           <a
-            href="/resume.pdf"
+            href="/Jooyoung_C_Gonzalez_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-medium text-primary hover:opacity-80 transition-opacity"
@@ -95,7 +95,7 @@ function Navbar({ isDark, onToggleDark }) {
             </a>
           ))}
           <a
-            href="/resume.pdf"
+            href="/Jooyoung_C_Gonzalez_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setMenuOpen(false)}

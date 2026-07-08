@@ -5,7 +5,7 @@ const navLinks = [
   { label: 'Experience', href: '#experience' },
   { label: 'About', href: '#about' },
   { label: 'Contact', href: '#contact' },
-  { label: 'Résumé', href: '/resume.pdf' },
+  { label: 'Résumé', href: '/Jooyoung_C_Gonzalez_Resume.pdf' },
 ];
 
 function Footer() {

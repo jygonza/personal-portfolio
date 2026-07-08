@@ -1,18 +1,18 @@
 export const skills = [
   {
-    title: 'Software Development',
-    items: ['Python', 'JavaScript', 'HTML & CSS', 'C', 'Git & GitHub', 'Linux CLI', 'Shell scripting'],
+    title: 'Languages',
+    items: ['Python', 'C', 'JavaScript', 'SQL'],
   },
   {
     title: 'AI & Machine Learning',
-    items: ['PyTorch', 'Machine learning', 'Deep learning', 'Reinforcement learning', 'Supervised fine-tuning', 'LoRA fine-tuning'],
+    items: ['PyTorch', 'Hugging Face Transformers', 'LangGraph', 'spaCy', 'scikit-learn', 'LLM evaluation'],
   },
   {
-    title: 'Language & Intelligent Systems',
-    items: ['Natural language processing', 'spaCy', 'LangGraph', 'LLM agents', 'Retrieval-based workflows'],
+    title: 'Data & Visualization',
+    items: ['pandas', 'NumPy', 'SciPy', 'Matplotlib'],
   },
   {
-    title: 'Data & Research',
-    items: ['pandas', 'NumPy', 'SciPy', 'Matplotlib', 'Experiment design', 'Model evaluation', 'SLURM / HPC clusters'],
+    title: 'Systems & Tools',
+    items: ['Linux', 'Bash', 'Git & GitHub', 'SLURM', 'Jupyter', 'Google Colab', 'Cursor'],
   },
 ];
