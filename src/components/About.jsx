@@ -4,7 +4,8 @@ const education = [
   {
     degree: 'Master of Computer Science',
     school: 'University of South Florida',
-    year: '2024',
+    year: '2024 – 2026',
+    gpa: '4.0',
   },
   {
     degree: 'Pathway to Computing Graduate Certificate',
@@ -51,16 +52,17 @@ function About() {
                 actually needs.
               </p>
               <p>
-                After transitioning into computer science, I focused on building AI systems that
-                work in domains where language and meaning are central: fact verification,
+                After transitioning into computer science, I've focused on building AI systems that
+                work in domains where language and meaning are central: claim verification,
                 generative models, social media analysis, and second-language learner research.
                 My background in linguistics is a differentiator, not a detour.
               </p>
               <p>
-                I am interested in roles at the intersection of software engineering and applied
-                AI — building the systems that bring research ideas into working, trustworthy
-                products. I'm drawn to teams that care about evaluation, explainability, and
-                building tools that people can actually rely on.
+                I recently completed my Master's at USF (May 2026) and am seeking roles at the
+                intersection of software engineering and applied AI — building the systems that
+                bring research ideas into working, trustworthy products. I'm drawn to teams that
+                care about evaluation, explainability, and building tools that people can actually
+                rely on.
               </p>
             </div>
 
@@ -70,7 +72,7 @@ function About() {
                 <div key={ed.degree} className="flex gap-3 items-start">
                   <FiAward className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
                   <div>
-                    <p className="text-sm font-medium text-foreground">{ed.degree}</p>
+                    <p className="text-sm font-medium text-foreground">{ed.degree}{ed.gpa && <span className="text-primary ml-2">GPA: {ed.gpa}</span>}</p>
                     <p className="text-xs text-muted-foreground">
                       {ed.school} · {ed.year}
                     </p>
@@ -84,7 +86,7 @@ function About() {
             </div>
 
             <a
-              href="/resume.pdf"
+              href="/Jooyoung_C_Gonzalez_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 h-9 px-4 rounded-md text-sm font-medium border border-border bg-background text-foreground hover:bg-muted transition-colors"
