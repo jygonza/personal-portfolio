@@ -1,28 +1,32 @@
 export const experience = [
   {
-    id: 1,
-    title: "Research Assistant",
-    organization: "TKAI Lab, AI & NLP Research",
-    location: "Tampa, FL",
-    dates: "Jan 2026 – Present",
-    bullets: [
-      "Built reproducible NLP pipelines in Python to process and analyze 1.6K+ learner essays from ICNALE.",
-      "Extracted syntactic and morphological features with spaCy.",
-      "Conducted applied NLP and computational linguistics research on second-language learner modeling, CEFR validity, feature-based proficiency analysis, and latent competence representations.",
-      "Developed research plans using ICNALE, EFCAMDAT, and interpretable linguistic feature sets spanning syntax, lexis, accuracy, and discourse cohesion.",
+    id: 'tkai',
+    role: 'Research Assistant',
+    org: 'TKAI Lab',
+    dates: '2023 – 2024',
+    overview:
+      'Applied NLP and computational linguistics research supporting second-language learner modeling and language proficiency studies.',
+    contributions: [
+      'Designed reproducible Python pipelines to process over 1,600 learner essays',
+      'Extracted syntactic and morphological features using spaCy for downstream classification',
+      'Contributed to research on second-language acquisition and writing proficiency modeling',
+      'Collaborated on experiment design and documentation for peer-reviewed publication',
     ],
+    tech: ['Python', 'spaCy', 'NLP', 'pandas', 'scikit-learn'],
   },
   {
-    id: 2,
-    title: "Research Assistant",
-    organization: "CEREAL Lab, Evolutionary Algorithms",
-    location: "Tampa, FL",
-    dates: "Jan 2024 – May 2024",
-    bullets: [
-      "Conducted Python-based experiments using genetic algorithms and evolution-inspired metaheuristics to solve Boolean SAT instances.",
-      "Evaluated performance under different algorithmic parameter settings.",
-      "Managed large-scale experiment runs on a computing cluster using Linux CLI, SLURM, and Git.",
-      "Supported job scheduling, execution, version control, and research documentation.",
+    id: 'cereal',
+    role: 'Research Assistant',
+    org: 'CEREAL Lab',
+    dates: '2022 – 2023',
+    overview:
+      'Ran large-scale evolutionary algorithm experiments on boolean satisfiability problems using Python and high-performance computing infrastructure.',
+    contributions: [
+      'Implemented genetic algorithm variants in Python for Boolean satisfiability benchmarks',
+      'Designed and executed large-scale experiment batches using SLURM on a Linux cluster',
+      'Maintained version-controlled experiment code and reproducibility documentation via Git',
+      'Analyzed experiment results across parameter sweeps to identify performance trends',
     ],
+    tech: ['Python', 'SLURM', 'Linux', 'Git', 'Evolutionary Algorithms'],
   },
 ];

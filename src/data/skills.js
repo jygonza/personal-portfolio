@@ -1,56 +1,18 @@
 export const skills = [
   {
-    category: "Languages",
-    items: ["Python", "C", "JavaScript", "HTML/CSS"],
+    title: 'Software Development',
+    items: ['Python', 'JavaScript', 'HTML & CSS', 'C', 'Git & GitHub', 'Linux CLI', 'Shell scripting'],
   },
   {
-    category: "AI / Machine Learning",
-    items: [
-      "Machine Learning",
-      "Deep Learning",
-      "Reinforcement Learning",
-      "NLP",
-      "Computer Vision",
-      "Supervised Fine-Tuning",
-      "LoRA Fine-Tuning",
-    ],
+    title: 'AI & Machine Learning',
+    items: ['PyTorch', 'Machine learning', 'Deep learning', 'Reinforcement learning', 'Supervised fine-tuning', 'LoRA fine-tuning'],
   },
   {
-    category: "Libraries & Frameworks",
-    items: [
-      "PyTorch",
-      "NumPy",
-      "SciPy",
-      "Pandas",
-      "Matplotlib",
-      "spaCy",
-      "LangGraph",
-    ],
+    title: 'Language & Intelligent Systems',
+    items: ['Natural language processing', 'spaCy', 'LangGraph', 'LLM agents', 'Retrieval-based workflows'],
   },
   {
-    category: "Backend / Databases",
-    items: ["Node.js", "Express.js", "PostgreSQL", "MySQL", "REST APIs"],
-  },
-  {
-    category: "Systems & Tools",
-    items: [
-      "Linux CLI",
-      "Shell Scripting",
-      "SLURM",
-      "Git",
-      "GitHub",
-      "VS Code",
-      "Cursor",
-    ],
-  },
-  {
-    category: "Research",
-    items: [
-      "Experiment Design",
-      "Corpus Analysis",
-      "Feature Extraction",
-      "Technical Writing",
-      "Model Evaluation",
-    ],
+    title: 'Data & Research',
+    items: ['pandas', 'NumPy', 'SciPy', 'Matplotlib', 'Experiment design', 'Model evaluation', 'SLURM / HPC clusters'],
   },
 ];
