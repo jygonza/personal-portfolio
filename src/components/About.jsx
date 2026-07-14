@@ -31,14 +31,9 @@ function About() {
         </div>
 
         <div className="grid lg:grid-cols-[auto_1fr] gap-12 items-start">
-          {/* Photo placeholder */}
+          {/*Headshot photo*/}
           <div className="mx-auto lg:mx-0">
-            <div className="w-52 h-52 rounded-2xl bg-gradient-to-br from-primary/20 via-accent to-muted border border-border flex items-center justify-center overflow-hidden">
-              <div className="text-center">
-                <div className="font-bold text-4xl text-primary/60">JYG</div>
-                <div className="font-mono text-xs text-muted-foreground mt-1">headshot</div>
-              </div>
-            </div>
+            <img src="/headshot.jpg" alt="Jooyoung Gonzalez" className="w-52 h-52 rounded-2xl object-cover" />
           </div>
 
           {/* Narrative */}
