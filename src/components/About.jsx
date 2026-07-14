@@ -16,6 +16,7 @@ const education = [
     degree: 'Bachelor of Arts, World Languages and Cultures',
     school: 'University of South Florida',
     year: '2021',
+    gpa: '3.95',
   },
 ];
 
@@ -32,8 +33,12 @@ function About() {
 
         <div className="grid lg:grid-cols-[auto_1fr] gap-12 items-start">
           {/*Headshot photo*/}
-          <div className="mx-auto lg:mx-0">
-            <img src="/headshot.jpg" alt="Jooyoung Gonzalez" className="w-52 h-52 rounded-2xl object-cover" />
+          <div className="mx-auto lg:mx-0 shrink-0">
+            <img
+              src={`${import.meta.env.BASE_URL}headshot.jpg`}
+              alt="Jooyoung Gonzalez"
+              className="block w-52 h-52 rounded-2xl object-cover object-[32%_28%]"
+            />
           </div>
 
           {/* Narrative */}
@@ -81,7 +86,7 @@ function About() {
             </div>
 
             <a
-              href="/Jooyoung_C_Gonzalez_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Jooyoung_C_Gonzalez_Resume.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 h-9 px-4 rounded-md text-sm font-medium border border-border bg-background text-foreground hover:bg-muted transition-colors"
